@@ -1,0 +1,17 @@
+.container p:last-child {
+    color: red;
+}
+p:before {
+    content: "hello";
+    background-color: red;
+    color: #fff;
+    display: block;
+}
+
+p::after {
+    content: "world";
+    background-color:green;
+    color: #fff;
+    display: block;
+}
+
